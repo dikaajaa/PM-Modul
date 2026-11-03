@@ -1,0 +1,169 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+}
+
+header {
+    background-color: #0a192f;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+header,
+section {
+    padding: 20px;
+}
+
+header,
+main,
+footer {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 42px;
+    margin: 0;
+}
+
+h2 {
+    color: #38bdf8;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #0a192f;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+h3 {
+    color: #0a192f;
+}
+
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#tentang {
+    background-color: #E8F5E9;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #1e2761;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #1e2761;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0a192f;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+#keahlian {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    background-color: #E8F5E9;
+}
+
+#keahlian li {
+    line-height: 2.0;
+}
+
+h3 {
+    color: #1E2761;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.menu-kontak {
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+.menu-kontak:hover {
+    color: #0a192f;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#hasil-form {
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    padding: 15px 0;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    font-style: italic;
+}
+
+.menu-link:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.7;
+}
